@@ -165,7 +165,7 @@ Configs.cookie = {
 		}
 
 		// Ideally configurable from ACP, but cannot be "Strict" as then top-level access will treat it as guest.
-		cookie.sameSite = 'Lax';
+		cookie.sameSite = 'None';
 
 		return cookie;
 	},
